@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MRCViewController : UIViewController
+@interface MRCViewController : UIViewController <UIViewControllerTransitioningDelegate>
 
 @end

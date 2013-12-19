@@ -21,6 +21,9 @@
 		248EDD1F1861E9330024DFC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248EDD011861E9320024DFC5 /* UIKit.framework */; };
 		248EDD271861E9330024DFC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 248EDD251861E9330024DFC5 /* InfoPlist.strings */; };
 		248EDD291861E9330024DFC5 /* CardTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 248EDD281861E9330024DFC5 /* CardTransitionTests.m */; };
+		248EDD371861ED310024DFC5 /* MRCCardAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248EDD361861ED310024DFC5 /* MRCCardAnimationController.m */; };
+		248EDD3A18620B6A0024DFC5 /* MRCPopCardAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248EDD3918620B6A0024DFC5 /* MRCPopCardAnimationController.m */; };
+		248EDD8518629B280024DFC5 /* MRCNavControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 248EDD8418629B280024DFC5 /* MRCNavControllerDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		248EDD241861E9330024DFC5 /* CardTransitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardTransitionTests-Info.plist"; sourceTree = "<group>"; };
 		248EDD261861E9330024DFC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		248EDD281861E9330024DFC5 /* CardTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardTransitionTests.m; sourceTree = "<group>"; };
+		248EDD351861ED310024DFC5 /* MRCCardAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCCardAnimationController.h; sourceTree = "<group>"; };
+		248EDD361861ED310024DFC5 /* MRCCardAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCCardAnimationController.m; sourceTree = "<group>"; };
+		248EDD3818620B6A0024DFC5 /* MRCPopCardAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCPopCardAnimationController.h; sourceTree = "<group>"; };
+		248EDD3918620B6A0024DFC5 /* MRCPopCardAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCPopCardAnimationController.m; sourceTree = "<group>"; };
+		248EDD8318629B280024DFC5 /* MRCNavControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCNavControllerDelegate.h; sourceTree = "<group>"; };
+		248EDD8418629B280024DFC5 /* MRCNavControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCNavControllerDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +126,12 @@
 				248EDD0F1861E9320024DFC5 /* Main.storyboard */,
 				248EDD121861E9320024DFC5 /* MRCViewController.h */,
 				248EDD131861E9320024DFC5 /* MRCViewController.m */,
+				248EDD8318629B280024DFC5 /* MRCNavControllerDelegate.h */,
+				248EDD8418629B280024DFC5 /* MRCNavControllerDelegate.m */,
+				248EDD351861ED310024DFC5 /* MRCCardAnimationController.h */,
+				248EDD361861ED310024DFC5 /* MRCCardAnimationController.m */,
+				248EDD3818620B6A0024DFC5 /* MRCPopCardAnimationController.h */,
+				248EDD3918620B6A0024DFC5 /* MRCPopCardAnimationController.m */,
 				248EDD151861E9320024DFC5 /* Images.xcassets */,
 				248EDD041861E9320024DFC5 /* Supporting Files */,
 			);
@@ -251,8 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				248EDD0A1861E9320024DFC5 /* main.m in Sources */,
+				248EDD8518629B280024DFC5 /* MRCNavControllerDelegate.m in Sources */,
 				248EDD0E1861E9320024DFC5 /* MRCAppDelegate.m in Sources */,
 				248EDD141861E9320024DFC5 /* MRCViewController.m in Sources */,
+				248EDD371861ED310024DFC5 /* MRCCardAnimationController.m in Sources */,
+				248EDD3A18620B6A0024DFC5 /* MRCPopCardAnimationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
